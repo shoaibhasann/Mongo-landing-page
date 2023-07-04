@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    background-color: #116149;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+    word-spacing: 3.5px;
+    font-size: 1.5rem;
+}
+.link{
+    text-decoration: underline;
+    cursor : pointer;
+}
+
+/* navaigation bar */
+
+nav{
+    width: 100%;
+    height: 100px;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 55px;
+    gap: 130px;
+}
+
+nav ul{
+    display: flex;
+    gap: 55px;
+    list-style: none;
+}
+
+nav ul li{
+    font-size: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: #21313C;
+}
+
+.center img{
+    width: 180px;
+
+}
+
+.primary-btn{
+    background-color: #00ED64;
+    padding: 15px 35px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* main  */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+
+    
+}
+
+/* section  */
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.left h3{
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: #21313C;
+}
+
+.left h1{
+    font-size: 4rem;
+}
+
+.left p{
+    font-size: 1.8rem;
+    color: #4c5d65;
+    word-spacing: 1px;
+    letter-spacing: 0.4px;
+}
+
+.left a{
+    width: 140px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.right img{
+    width: 500px;
+    height: 460px;
+    
+}
+
+/* footer  */
+
+footer{
+    background-color: #116149;
+    height: 70px;
+    width: 100%;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 1.4rem;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+}
+
+footer button{
+    background-color: #116149;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
